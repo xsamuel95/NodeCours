@@ -1,8 +1,8 @@
 const path = require('path');
 const fs = require ('js');
 
-const cheminAbsoluIndexHtml = ;
-const cheminAbsoluLogTxt = ;
+const cheminAbsoluIndexHtml = path.join(__dirname ,'..assets/index.html') ;
+const cheminAbsoluLogTxt = path.join(__dirname, 'log.txt') ;
 
 console.log(cheminAbsoluIndexHtml);
 console.log(cheminAbsoluLogTxt);
