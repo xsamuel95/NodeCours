@@ -26,3 +26,5 @@ logger.on('FizzBuzz', function(payload) {
 })
 
 module.exports = logger;
+module.exports = logger;
+
